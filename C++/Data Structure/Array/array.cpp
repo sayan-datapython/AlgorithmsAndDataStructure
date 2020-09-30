@@ -8,7 +8,7 @@ void sum() {
     int i, result = 0;
     
     for(i=0;i<5;i++) {
-        result += foo[i];
+        result =result+foo[i];
     }
     cout << "Total sum of array : " << result << endl;
 }
@@ -16,7 +16,7 @@ void sum() {
 void updation() {
     // updation of array
     foo[1] = 20;
-    cout << "Array element after updation : ";
+    cout << "Array after updation : ";
     cout << foo[0]<< " ";
     cout << foo[1]<< " ";
     cout << foo[2]<< " ";
